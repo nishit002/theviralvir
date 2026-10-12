@@ -13,4 +13,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://nishit002.github.io/theviralveer/sitemap.xml
+Sitemap: https://nishit002.github.io/theviralvir/sitemap.xml

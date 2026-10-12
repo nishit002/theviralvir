@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-"""Content model for The Viral Veer. Edit this file, then run build.py."""
+"""Content model for The Viral Vir. Edit this file, then run build.py."""
 
 SITE = {
-    "name": "The Viral Veer",
+    "name": "The Viral Vir",
     "tagline": "Smart advice for modern life.",
     "subline": "Relationships. Career. Technology. Life.",
-    "description": "Viral Veer is an Indian content creator, technology and corporate professional, and commentator on relationships, careers, technology and modern life. Practical, experience-based answers to the questions people actually ask.",
+    "description": "Viral Vir is an Indian content creator, technology and corporate professional, and commentator on relationships, careers, technology and modern life. Practical, experience-based answers to the questions people actually ask.",
     "handle": "@theviralvir",
     "instagram": "https://www.instagram.com/theviralvir/",
     "youtube": "https://www.youtube.com/@theviralvir",
@@ -245,7 +245,7 @@ PILLARS = [
                 "10 things I learned after working in different countries",
                 "Should you move abroad for your career?",
              ]},
-            {"slug": "the-viral-veer-life", "name": "The Viral Veer Life", "lede": "Food, books, cities, failures, and the people I have met.",
+            {"slug": "the-viral-vir-life", "name": "The Viral Vir Life", "lede": "Food, books, cities, failures, and the people I have met.",
              "questions": [
                 "Things I wish I knew at 30",
                 "What 30 years of working taught me about people",
@@ -255,12 +255,12 @@ PILLARS = [
     },
 ]
 
-# Flagship articles in the Viral Veer Answer format.
+# Flagship articles in the Viral Vir Answer format.
 ARTICLES = [
     {
         "slug": "how-to-know-if-someone-likes-you", "pillar": "relationships", "sub": "dating",
         "title": "How do you know if someone genuinely likes you?",
-        "description": "Seven consistent signs someone genuinely likes you, the mistakes people make reading them, and Viral Veer's take on why attention is the only real tell.",
+        "description": "Seven consistent signs someone genuinely likes you, the mistakes people make reading them, and Viral Vir's take on why attention is the only real tell.",
         "short": "Someone who genuinely likes you shows consistent interest through their time, attention, communication and actions. Not occasional flirting. Consistency is the tell.",
         "signs_heading": "7 signs someone genuinely likes you",
         "signs": [
@@ -447,7 +447,7 @@ ARTICLES = [
     },
 ]
 
-# Viral Veer Explains
+# Viral Vir Explains
 EXPLAINS = [
     ("why-people-ghost", "Why people ghost", "Ghosting is rarely about you. It is about the ghoster's inability to handle a small, uncomfortable conversation. Avoidance is a habit, not a verdict."),
     ("why-people-cheat", "Why people cheat", "Opportunity, unmet needs and low character, in varying mixes. Most cheating starts as an ego fix, not a love story."),
@@ -459,7 +459,7 @@ EXPLAINS = [
     ("why-money-does-not-always-make-people-happy", "Why money does not always make people happy", "Money removes certain miseries. It does not add meaning. People who expect it to do both are disappointed on schedule."),
 ]
 
-# Viral Veer vs
+# Viral Vir vs
 VERSUS = [
     ("love-vs-attraction", "Love vs Attraction", "Attraction is what pulls you in. Love is what keeps you in when the pull fades.", "Attraction is fast, physical and involuntary. Love is slow, chosen and built. Confusing the two is how people end up married to a feeling."),
     ("confidence-vs-arrogance", "Confidence vs Arrogance", "Confidence does not need you to be smaller. Arrogance does.", "Confident people are comfortable being wrong. Arrogant people cannot afford it. Watch how someone handles correction and you will know which one you are dealing with."),
@@ -471,7 +471,7 @@ VERSUS = [
     ("dating-vs-courtship", "Dating vs Courtship", "Dating explores. Courtship decides.", "Dating is open-ended and low-commitment by design. Courtship has a destination. Problems start when one person is dating and the other is courting."),
 ]
 
-# Viral Veer Dictionary
+# Viral Vir Dictionary
 DICTIONARY = [
     ("the-3c-rule", "The 3C Rule", "Chemistry + Compatibility + Character.", "The three things a relationship needs. Chemistry gets you in, compatibility keeps daily life workable, character keeps you safe when things go wrong. Most people only check the first one."),
     ("the-3r-rule", "The 3R Rule", "Respect + Reliability + Reciprocity.", "The minimum standard for any relationship worth keeping, romantic or professional. Remove any one and the relationship becomes a slow-motion exit."),
@@ -485,9 +485,9 @@ DICTIONARY = [
 
 # Media appearances (placeholders until real coverage is added).
 MEDIA = [
-    {"slug": "modern-dating-podcast", "title": "Viral Veer on why modern dating is getting harder", "outlet": "Podcast appearance", "date": "2026", "topic": "Relationships", "summary": "A long-form conversation on dating apps, attention and why intelligent people struggle with modern dating.", "url": "#"},
-    {"slug": "ai-and-executive-careers", "title": "Viral Veer on how AI is changing executive careers", "outlet": "Business media", "date": "2026", "topic": "Career", "summary": "What senior professionals should do this year, and which roles are protected last.", "url": "#"},
-    {"slug": "living-abroad-india", "title": "Viral Veer on what living in different countries teaches you about people", "outlet": "Lifestyle feature", "date": "2026", "topic": "Life", "summary": "Lessons from working across countries and what they reveal about India.", "url": "#"},
+    {"slug": "modern-dating-podcast", "title": "Viral Vir on why modern dating is getting harder", "outlet": "Podcast appearance", "date": "2026", "topic": "Relationships", "summary": "A long-form conversation on dating apps, attention and why intelligent people struggle with modern dating.", "url": "#"},
+    {"slug": "ai-and-executive-careers", "title": "Viral Vir on how AI is changing executive careers", "outlet": "Business media", "date": "2026", "topic": "Career", "summary": "What senior professionals should do this year, and which roles are protected last.", "url": "#"},
+    {"slug": "living-abroad-india", "title": "Viral Vir on what living in different countries teaches you about people", "outlet": "Lifestyle feature", "date": "2026", "topic": "Life", "summary": "Lessons from working across countries and what they reveal about India.", "url": "#"},
 ]
 
 ASK_CATEGORIES = [
