@@ -41,7 +41,7 @@ p{margin:0 0 1em}.lede{font-size:17px;color:var(--ink2);max-width:62ch}
 .top .wrap{display:flex;align-items:center;justify-content:space-between;height:62px;gap:12px}
 .brand{display:flex;align-items:center;gap:10px;font-family:"Plus Jakarta Sans",sans-serif;font-weight:800;font-size:18px;letter-spacing:-.02em;white-space:nowrap}
 .brand img{width:34px;height:34px;border-radius:50%;border:2px solid var(--brand)}
-.brand span{color:var(--brand)}
+.brand b{font-weight:inherit;white-space:pre}.brand span{color:var(--brand)}
 .nav{display:none;gap:2px}.nav a{padding:10px 12px;border-radius:100px;font-weight:600;color:var(--ink2);font-size:14px;min-height:44px;display:inline-flex;align-items:center}
 .nav a:hover,.nav a[aria-current]{background:var(--pill);color:var(--ink)}
 @media(min-width:960px){.nav{display:flex}}
@@ -210,7 +210,7 @@ def layout(title, desc, body, path="", schema=None, current=None, og_type="websi
 </head>
 <body class="{pclass}">
 <header class="top"><div class="wrap">
-<a class="brand" href="{u()}"><img src="{img('viralvir-240.jpg')}" alt="" width="34" height="34">The Viral <span>Vir</span></a>
+<a class="brand" href="{u()}"><img src="{img('viralvir-240.jpg')}" alt="" width="34" height="34"><b>The Viral <span>Vir</span></b></a>
 <nav class="nav" aria-label="Primary">{nav}</nav>
 <div style="display:flex;gap:8px;align-items:center">
 <a class="ask-btn" href="{u('ask')}">Ask Viral Vir →</a>
@@ -222,7 +222,7 @@ def layout(title, desc, body, path="", schema=None, current=None, og_type="websi
 <footer><div class="wrap">
 {follow_row()}
 <div class="cols" style="margin-top:32px">
-<div><div class="brand"><img src="{img('viralvir-240.jpg')}" alt="" width="34" height="34">The Viral <span>Vir</span></div><p style="margin-top:10px;max-width:40ch">{SITE['tagline']} The guy you ask when life gets complicated. Home of {SITE['show']} and Zindagi ke Smart Tips.</p></div>
+<div><div class="brand"><img src="{img('viralvir-240.jpg')}" alt="" width="34" height="34"><b>The Viral <span>Vir</span></b></div><p style="margin-top:10px;max-width:40ch">{SITE['tagline']} The guy you ask when life gets complicated. Home of {SITE['show']} and Zindagi ke Smart Tips.</p></div>
 <div><h4>Topics</h4>{pillar_links}</div>
 <div><h4>Series</h4><a href="{u('ask')}">Ask Viral Vir</a><a href="{u('explains')}">Viral Vir Explains</a><a href="{u('vs')}">Viral Vir vs</a><a href="{u('dictionary')}">Dictionary</a><a href="{u('podcast')}">Podcast / Videos</a></div>
 <div><h4>Viral Vir</h4><a href="{u('about')}">About</a><a href="{u('media')}">Media</a><a href="{u('contact')}">Contact</a><a href="{SITE['instagram']}" rel="me">Instagram {SITE['handle']}</a><a href="{SITE['youtube']}" rel="me">YouTube</a><a href="{SITE['facebook']}" rel="me">Facebook</a></div>
