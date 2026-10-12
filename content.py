@@ -6,12 +6,35 @@ SITE = {
     "tagline": "Smart advice for modern life.",
     "subline": "Relationships. Career. Technology. Life.",
     "description": "Viral Veer is an Indian content creator, technology and corporate professional, and commentator on relationships, careers, technology and modern life. Practical, experience-based answers to the questions people actually ask.",
-    "instagram": "https://www.instagram.com/theviralveer",
-    "youtube": "https://www.youtube.com/@theviralveer",
-    "linkedin": "https://www.linkedin.com/in/viralveer",
-    "x": "https://x.com/theviralveer",
-    "email": "hello@theviralveer.com",
+    "handle": "@theviralvir",
+    "instagram": "https://www.instagram.com/theviralvir/",
+    "youtube": "https://www.youtube.com/@theviralvir",
+    "facebook": "https://www.facebook.com/theviralvir",
+    "email": "TheViralVir@gmail.com",
+    "person": "V Jain",
+    "stats": [("253k", "Instagram followers"), ("1B+", "views"), ("363", "posts"), ("36+", "Zindagi ke Smart Tips episodes")],
+    "featured": ["Times of India", "BW Businessworld", "IIT Bombay"],
+    "show": "The Viral Vir Show",
 }
+
+# Real Instagram tiles captured from instagram.com/theviralvir (assets/img/ig1-6.jpg)
+IG_POSTS = [
+    ("ig1.jpg", "Zindagi Ke Smart Tips, Episode 36: Muskurana"),
+    ("ig2.jpg", "Zindagi Ke Smart Tips, Episode 35"),
+    ("ig3.jpg", "Best comeback: a Viral Vir reaction"),
+    ("ig4.jpg", "Zindagi Ke Smart Tips, talk show clip"),
+    ("ig5.jpg", "The Viral Vir Show: conversations on love and life"),
+    ("ig6.jpg", "The last word people say before death"),
+]
+
+# Recent YouTube uploads from youtube.com/@theviralvir (thumbnails in assets/img)
+YT_VIDEOS = [
+    ("sCaNPoA2f8g", "Healthy food is slowly poisoning your body, with Dr Shreya"),
+    ("4mB-cBLVniQ", "Mental health conversations with The Viral Vir"),
+    ("xAQaeq7ItF0", "How to become a fashion influencer on Instagram"),
+    ("iT2Wn0NTrh8", "The most controversial film of 2025, with Tushar Amrish Goel"),
+    ("UgHh87CcjEo", "Bhoot tantra or science, with Dr Sidhant Joshi"),
+]
 
 # Pillars -> sub-topics. Each sub-topic carries the question bank for its hub.
 PILLARS = [
@@ -481,9 +504,4 @@ ASK_SAMPLES = [
      "It is not too late. Most people have not started. You do not need a course. Pick one real task from your job this week and do it with an AI tool. Repeat daily for a month. That puts you ahead of most of your colleagues."),
 ]
 
-EPISODES = [
-    {"title": "Zindagi Ke Smart Tips: Why people lose friends after 30", "kind": "Reel", "dur": "0:58", "url": SITE["instagram"]},
-    {"title": "The Viral Veer Show: Dating after 40, what actually changes", "kind": "Video", "dur": "12:40", "url": SITE["youtube"]},
-    {"title": "The Viral Veer Show: How I negotiate, from both sides of the table", "kind": "Podcast", "dur": "18:05", "url": SITE["youtube"]},
-    {"title": "Zindagi Ke Smart Tips: The Tuesday Test", "kind": "Reel", "dur": "0:45", "url": SITE["instagram"]},
-]
+EPISODES = []
