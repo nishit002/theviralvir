@@ -347,7 +347,7 @@ def about():
 <div><span class="label brandc">Who is Viral Vir?</span><h1>Viral Vir</h1>
 <p class="lede">Viral Vir is an Indian content creator, podcast host, technology and corporate professional, and commentator on relationships, careers and modern life. Drawing on decades of professional experience, international exposure and personal observation, he creates practical advice about navigating work, relationships, technology and everyday life.</p>
 <div class="cta" style="margin-top:8px"><a class="igbtn" href="{SITE['instagram']}" target="_blank" rel="noopener">{IG_SVG} Follow {SITE['handle']}</a><a class="ytbtn" href="{SITE['youtube']}" target="_blank" rel="noopener">{YT_SVG} {SITE['show']}</a></div></div>
-<div class="portrait" style="max-width:380px"><img src="{img('viralvir.jpg')}" alt="Viral Vir" width="720" height="720"></div>
+<div class="portrait" style="max-width:380px"><img src="{img('viralvir-about.jpg')}" alt="Viral Vir" width="720" height="720"></div>
 </div>
 <div class="stats" style="margin:28px 0 8px">{stats}</div>
 <div class="article"><div class="body">
